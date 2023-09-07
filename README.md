@@ -1,6 +1,6 @@
 # citi-hackoverflow-Ouiken-Dueet
 
-This is the final submission for team Ouiken Dueet for Citi Hackoverflow 2023. 
+This is the final submission for team Ouiken Dueet for Citi Hackoverflow 2023. :)
 
 To run this application: 
 
@@ -12,4 +12,4 @@ To run this application:
 
 4) To run the app, use `streamlit run stock_predictor.py`
 
-5) Enjoy the app!
+5) Enjoy the app! :D
