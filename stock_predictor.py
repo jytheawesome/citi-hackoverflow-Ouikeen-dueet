@@ -33,7 +33,6 @@ def pluralize(count, word):
     return word
 
 
-# Plot raw data
 def plot_raw_data():
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=data["Date"], y=data["Open"], name="stock_open"))
@@ -58,11 +57,7 @@ def trend_insight(data):
 
 
 def get_news_sentiment(headlines):
-    # In a real-world scenario, you would extract recent news articles about the stock.
-    # For this PoC, let's assume we have a list of recent news titles about the stock.
-    # news_titles = ["This " + stock + "is the best! MUST BUY NOW!",
-    #                "This is a dummy neutral news about " + stock]
-
+    
     if len(headlines) == 0:
         return "There is no news data."
 
